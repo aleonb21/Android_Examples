@@ -1,0 +1,135 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15sp"
+        android:text="@string/main" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Button
+            android:id="@+id/StartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.24"
+            android:text="@string/startButton" />
+        <Button
+            android:id="@+id/StopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.18"
+            android:text="@string/stopButton" />
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:text="@string/acceleration" />
+            <TextView
+                android:id="@+id/acelerationView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_marginTop="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orientation" />
+            <TextView
+                android:id="@+id/orientationView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_marginTop="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gyroscope" />
+            <TextView
+                android:id="@+id/gyroscopeView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_marginTop="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/magneticfield" />
+            <TextView
+                android:id="@+id/magneticfieldView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_marginTop="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/proximity" />
+            <TextView
+                android:id="@+id/proximityView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_marginTop="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/luminosity" />
+            <TextView
+                android:id="@+id/luminosityView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_marginTop="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/barometer" />
+            <TextView
+                android:id="@+id/barometerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_marginTop="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/altitude" />
+            <TextView
+                android:id="@+id/altitudeView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
